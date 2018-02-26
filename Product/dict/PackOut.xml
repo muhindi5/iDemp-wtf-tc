@@ -3483,14 +3483,15 @@ If you leave the search key empty, the system automatically creates a numeric nu
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Group2</Name>
-                <Description/>
-                <Help/>
+                <Name>Search Key</Name>
+                <Description>Search key for the record in the format required - must be unique</Description>
+                <Help>A search key allows you a fast method of finding a particular record.
+If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_&lt;TableName&gt;", where TableName is the actual name of the table (e.g. C_Order).</Help>
                 <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">d552f26c-e45c-4f63-bd0d-245c92a7e032</AD_Column_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">4ad171f6-4f3f-4439-838c-d2f626b57289</AD_Column_ID>
                 <IsDisplayed>N</IsDisplayed>
                 <DisplayLogic/>
-                <DisplayLength>255</DisplayLength>
+                <DisplayLength>40</DisplayLength>
                 <SeqNo>0</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
@@ -3509,66 +3510,10 @@ If you leave the search key empty, the system automatically creates a numeric nu
                 <AD_Reference_Value_ID reference="id"/>
                 <AD_Val_Rule_ID reference="id"/>
                 <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>1298e316-79a4-49dd-b6f0-95f6e1e7bd9d</AD_Field_UU>
+                <AD_Field_UU>ac929978-c427-4135-b098-f91ca9b754a8</AD_Field_UU>
                 <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>5</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description/>
-                    <Name>Group2</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Freight Category</Name>
-                <Description>Category of the Freight</Description>
-                <Help>Freight Categories are used to calculate the Freight for the Shipper selected</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">9c54214e-14c4-49f9-9168-894bb74a595b</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>c7af8863-363e-4433-afbd-69183b7e4869</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>10</SeqNoGrid>
                 <XPosition>1</XPosition>
                 <ColumnSpan>2</ColumnSpan>
                 <NumLines>1</NumLines>
@@ -3584,289 +3529,10 @@ If you leave the search key empty, the system automatically creates a numeric nu
                 <AD_LabelStyle_ID reference="id"/>
                 <AD_FieldStyle_ID reference="id"/>
                 <AD_Field_Trl type="translation">
-                    <Help>Freight Categories are used to calculate the Freight for the Shipper selected</Help>
-                    <Description>Category of the Freight</Description>
-                    <Name>Freight Category</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Locator</Name>
-                <Description>Warehouse Locator</Description>
-                <Help>The Locator indicates where in a Warehouse a product is located.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">3c6079e8-f2d9-483a-846f-4f5b4c64022d</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>0d92d832-0f6f-45d8-b775-b7a7ec5c728d</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Locator indicates where in a Warehouse a product is located.</Help>
-                    <Description>Warehouse Locator</Description>
-                    <Name>Locator</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Process Now</Name>
-                <Description/>
-                <Help/>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">4e4be851-2652-4560-8c9b-c1d2a488a560</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>4b8cc805-136a-4d90-8448-02e5e91e4810</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description/>
-                    <Name>Process Now</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Sales Representative</Name>
-                <Description>Sales Representative or Company Agent</Description>
-                <Help>The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">8f380f2d-350e-4afa-8707-4e23d129dd4f</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>2784ef6d-e410-40e3-808c-9bd2cca40d21</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</Help>
-                    <Description>Sales Representative or Company Agent</Description>
-                    <Name>Sales Representative</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Shelf Depth</Name>
-                <Description>Shelf depth required</Description>
-                <Help>The Shelf Depth indicates the depth dimension required on a shelf for a product </Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">b397cf68-04f5-46ff-8f5f-7bdfa2610682</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>a7d2ebc0-92b7-4865-8c3f-440cc1820238</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Shelf Depth indicates the depth dimension required on a shelf for a product </Help>
-                    <Description>Shelf depth required</Description>
-                    <Name>Shelf Depth</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Shelf Height</Name>
-                <Description>Shelf height required</Description>
-                <Help>The Shelf Height indicates the height dimension required on a shelf for a product</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">fca44e57-ea31-4616-b463-6899b2c9c073</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>6673059b-0d39-421b-a0de-ddbb0155fb11</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Shelf Height indicates the height dimension required on a shelf for a product</Help>
-                    <Description>Shelf height required</Description>
-                    <Name>Shelf Height</Name>
+                    <Help>A search key allows you a fast method of finding a particular record.
+If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_&lt;TableName&gt;", where TableName is the actual name of the table (e.g. C_Order).</Help>
+                    <Description>Search key for the record in the format required - must be unique</Description>
+                    <Name>Search Key</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
@@ -4551,64 +4217,6 @@ For Multi-Lingual systems, the template is translated based on the Business Part
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Search Key</Name>
-                <Description>Search key for the record in the format required - must be unique</Description>
-                <Help>A search key allows you a fast method of finding a particular record.
-If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_&lt;TableName&gt;", where TableName is the actual name of the table (e.g. C_Order).</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">4ad171f6-4f3f-4439-838c-d2f626b57289</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>40</DisplayLength>
-                <SeqNo>0</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>ac929978-c427-4135-b098-f91ca9b754a8</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>10</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>A search key allows you a fast method of finding a particular record.
-If you leave the search key empty, the system automatically creates a numeric number.  The document sequence used for this fallback number is defined in the "Maintain Sequence" window with the name "DocumentNo_&lt;TableName&gt;", where TableName is the actual name of the table (e.g. C_Order).</Help>
-                    <Description>Search key for the record in the format required - must be unique</Description>
-                    <Name>Search Key</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
                 <Name>Comment/Help</Name>
                 <Description>Comment or Hint</Description>
                 <Help>The Help field contains a hint, comment or help about the use of this item.</Help>
@@ -4657,6 +4265,62 @@ If you leave the search key empty, the system automatically creates a numeric nu
                     <Help>The Help field contains a hint, comment or help about the use of this item.</Help>
                     <Description>Comment or Hint</Description>
                     <Name>Comment/Help</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Classification</Name>
+                <Description>Classification for grouping</Description>
+                <Help>The Classification can be used to optionally group products.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">3c7485cd-361d-46e5-aaaa-7d3de214aee3</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>12</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>fb9e21c4-e554-4295-9d87-f544ae04d9a7</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>40</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Classification can be used to optionally group products.</Help>
+                    <Description>Classification for grouping</Description>
+                    <Name>Classification</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
@@ -5161,6 +4825,62 @@ If you leave the search key empty, the system automatically creates a numeric nu
                     <Help/>
                     <Description/>
                     <Name>Group1</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Group2</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">d552f26c-e45c-4f63-bd0d-245c92a7e032</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>255</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>1298e316-79a4-49dd-b6f0-95f6e1e7bd9d</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>5</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>Group2</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
@@ -5677,6 +5397,62 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
+                <Name>Own Box</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">22b2d8ff-157a-44c8-b0f8-688a16f42673</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>1db7821f-d34c-484d-b6fc-992a3ddec481</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>2</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>Own Box</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
                 <Name>Phantom</Name>
                 <Description>Phantom Component</Description>
                 <Help>Phantom Component are not stored and produced with the product. This is an option to avild maintaining an Engineering and Manufacturing Bill of Materials.</Help>
@@ -5789,6 +5565,62 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
+                <Name>Self-Service</Name>
+                <Description>This is a Self-Service entry or this entry can be changed via Self-Service</Description>
+                <Help>Self-Service allows users to enter data or update their data.  The flag indicates, that this record was entered or created via Self-Service or that the user can change it via the Self-Service functionality.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">bfe9328b-8c0a-424c-9bd1-dc7e637ee82c</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>e795fa03-d471-47f7-a7b9-9a18d8658dea</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>2</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>Self-Service allows users to enter data or update their data.  The flag indicates, that this record was entered or created via Self-Service or that the user can change it via the Self-Service functionality.</Help>
+                    <Description>This is a Self-Service entry or this entry can be changed via Self-Service</Description>
+                    <Name>Self-Service</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
                 <Name>Verified</Name>
                 <Description>The BOM configuration has been verified</Description>
                 <Help>The Verified check box indicates if the configuration of this product has been verified.  This is used for products that consist of a bill of materials</Help>
@@ -5818,7 +5650,7 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_Field_UU>f9ab2216-96cb-4c31-9b1d-4b9d00c6271a</AD_Field_UU>
                 <IsAllowCopy/>
                 <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>160</SeqNoGrid>
+                <SeqNoGrid>150</SeqNoGrid>
                 <XPosition>2</XPosition>
                 <ColumnSpan>2</ColumnSpan>
                 <NumLines>1</NumLines>
@@ -5957,6 +5789,566 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
+                <Name>Freight Category</Name>
+                <Description>Category of the Freight</Description>
+                <Help>Freight Categories are used to calculate the Freight for the Shipper selected</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">9c54214e-14c4-49f9-9168-894bb74a595b</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>c7af8863-363e-4433-afbd-69183b7e4869</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>Freight Categories are used to calculate the Freight for the Shipper selected</Help>
+                    <Description>Category of the Freight</Description>
+                    <Name>Freight Category</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Locator</Name>
+                <Description>Warehouse Locator</Description>
+                <Help>The Locator indicates where in a Warehouse a product is located.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">3c6079e8-f2d9-483a-846f-4f5b4c64022d</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>0d92d832-0f6f-45d8-b775-b7a7ec5c728d</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Locator indicates where in a Warehouse a product is located.</Help>
+                    <Description>Warehouse Locator</Description>
+                    <Name>Locator</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Part Type</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">8fc937b2-17a7-48e6-90e9-6ce84fe9ca83</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>10</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>d5a0d33f-62bc-4855-a58f-31e650412a38</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>Part Type</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>BhgoProduct</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">7a9d8de6-9c56-4562-b2d5-c2afaaa59290</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>d1127f80-05de-427e-a6cb-27d7767587f2</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid/>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>BhgoProduct</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>BHGO_M_Product_UU</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">d14bd662-9897-4ba2-9173-933d977875db</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>36</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>b06624e3-7633-48b6-938c-94faa0912900</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid/>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>BHGO_M_Product_UU</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Process Now</Name>
+                <Description/>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">4e4be851-2652-4560-8c9b-c1d2a488a560</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>4b8cc805-136a-4d90-8448-02e5e91e4810</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>2</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description/>
+                    <Name>Process Now</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Sales Representative</Name>
+                <Description>Sales Representative or Company Agent</Description>
+                <Help>The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">8f380f2d-350e-4afa-8707-4e23d129dd4f</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>2784ef6d-e410-40e3-808c-9bd2cca40d21</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Sales Representative indicates the Sales Rep for this Region.  Any Sales Rep must be a valid internal user.</Help>
+                    <Description>Sales Representative or Company Agent</Description>
+                    <Name>Sales Representative</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Expense Type</Name>
+                <Description>Expense report type</Description>
+                <Help/>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">0c38a9b3-1e56-4a1a-bae9-272da7536736</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>19c48abc-dfbb-4fe1-bd5d-e362cd619dfc</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help/>
+                    <Description>Expense report type</Description>
+                    <Name>Expense Type</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Shelf Depth</Name>
+                <Description>Shelf depth required</Description>
+                <Help>The Shelf Depth indicates the depth dimension required on a shelf for a product </Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">b397cf68-04f5-46ff-8f5f-7bdfa2610682</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>a7d2ebc0-92b7-4865-8c3f-440cc1820238</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Shelf Depth indicates the depth dimension required on a shelf for a product </Help>
+                    <Description>Shelf depth required</Description>
+                    <Name>Shelf Depth</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Shelf Height</Name>
+                <Description>Shelf height required</Description>
+                <Help>The Shelf Height indicates the height dimension required on a shelf for a product</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">fca44e57-ea31-4616-b463-6899b2c9c073</AD_Column_ID>
+                <IsDisplayed>N</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>0</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>6673059b-0d39-421b-a0de-ddbb0155fb11</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Shelf Height indicates the height dimension required on a shelf for a product</Help>
+                    <Description>Shelf height required</Description>
+                    <Name>Shelf Height</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
                 <Name>Name</Name>
                 <Description>Alphanumeric identifier of the entity</Description>
                 <Help>The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</Help>
@@ -6069,14 +6461,14 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Classification</Name>
-                <Description>Classification for grouping</Description>
-                <Help>The Classification can be used to optionally group products.</Help>
+                <Name>Product Type</Name>
+                <Description>Type of product</Description>
+                <Help>The type of product also determines accounting consequences.</Help>
                 <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">3c7485cd-361d-46e5-aaaa-7d3de214aee3</AD_Column_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">d73526a7-eb23-4809-ab5a-b9c046d5d005</AD_Column_ID>
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
-                <DisplayLength>12</DisplayLength>
+                <DisplayLength>1</DisplayLength>
                 <SeqNo>30</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
@@ -6095,10 +6487,10 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_Reference_Value_ID reference="id"/>
                 <AD_Val_Rule_ID reference="id"/>
                 <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>fb9e21c4-e554-4295-9d87-f544ae04d9a7</AD_Field_UU>
+                <AD_Field_UU>c4a09362-afdd-4578-bfa4-fdea0a76e8de</AD_Field_UU>
                 <IsAllowCopy/>
                 <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>40</SeqNoGrid>
+                <SeqNoGrid>90</SeqNoGrid>
                 <XPosition>1</XPosition>
                 <ColumnSpan>2</ColumnSpan>
                 <NumLines>1</NumLines>
@@ -6114,9 +6506,65 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_LabelStyle_ID reference="id"/>
                 <AD_FieldStyle_ID reference="id"/>
                 <AD_Field_Trl type="translation">
-                    <Help>The Classification can be used to optionally group products.</Help>
-                    <Description>Classification for grouping</Description>
-                    <Name>Classification</Name>
+                    <Help>The type of product also determines accounting consequences.</Help>
+                    <Description>Type of product</Description>
+                    <Name>Product Type</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Product Category</Name>
+                <Description>Category of a Product</Description>
+                <Help>Identifies the category which this product belongs to.  Product categories are used for pricing and selection.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">af49c3ce-3a8c-49c6-9dd2-936e4021edd8</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>22</DisplayLength>
+                <SeqNo>40</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>65f1e658-c74f-4e35-8859-61ccd6d19879</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>80</SeqNoGrid>
+                <XPosition>1</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>Identifies the category which this product belongs to.  Product categories are used for pricing and selection.</Help>
+                    <Description>Category of a Product</Description>
+                    <Name>Product Category</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
@@ -6133,7 +6581,7 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
                 <DisplayLength>22</DisplayLength>
-                <SeqNo>40</SeqNo>
+                <SeqNo>50</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
                 <IsHeading>N</IsHeading>
@@ -6181,342 +6629,6 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Own Box</Name>
-                <Description/>
-                <Help/>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">22b2d8ff-157a-44c8-b0f8-688a16f42673</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>50</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>1db7821f-d34c-484d-b6fc-992a3ddec481</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description/>
-                    <Name>Own Box</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Purchased</Name>
-                <Description>Organization purchases this product</Description>
-                <Help>The Purchased check box indicates if this product is purchased by this organization.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">0c761c6d-7893-47e8-b72b-6506ff7a60c4</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>60</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>92ba1834-05c3-40ca-8932-6d983dc77739</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>130</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Purchased check box indicates if this product is purchased by this organization.</Help>
-                    <Description>Organization purchases this product</Description>
-                    <Name>Purchased</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Self-Service</Name>
-                <Description>This is a Self-Service entry or this entry can be changed via Self-Service</Description>
-                <Help>Self-Service allows users to enter data or update their data.  The flag indicates, that this record was entered or created via Self-Service or that the user can change it via the Self-Service functionality.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">bfe9328b-8c0a-424c-9bd1-dc7e637ee82c</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>70</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>e795fa03-d471-47f7-a7b9-9a18d8658dea</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>Self-Service allows users to enter data or update their data.  The flag indicates, that this record was entered or created via Self-Service or that the user can change it via the Self-Service functionality.</Help>
-                    <Description>This is a Self-Service entry or this entry can be changed via Self-Service</Description>
-                    <Name>Self-Service</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Sold</Name>
-                <Description>Organization sells this product</Description>
-                <Help>The Sold check box indicates if this product is sold by this organization.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">2a323f3c-af62-4a1b-bc5a-c35761035cd4</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>80</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>f99ac058-a2b2-4dfd-b400-6d1328ad6770</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>140</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Sold check box indicates if this product is sold by this organization.</Help>
-                    <Description>Organization sells this product</Description>
-                    <Name>Sold</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Stocked</Name>
-                <Description>Organization stocks this product</Description>
-                <Help>The Stocked check box indicates if this product is stocked by this Organization.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">01755500-e8c8-4b82-b8c4-60f0255b2eba</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>90</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>98d509e6-a1b1-4b5d-89fa-cdbf4b11c32f</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>150</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>The Stocked check box indicates if this product is stocked by this Organization.</Help>
-                    <Description>Organization stocks this product</Description>
-                    <Name>Stocked</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Summary Level</Name>
-                <Description>This is a summary entity</Description>
-                <Help>A summary entity represents a branch in a tree rather than an end-node. Summary entities are used for reporting and do not have own values.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">2338fd88-c733-4d41-aca5-c93c3ac0b69f</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>1</DisplayLength>
-                <SeqNo>100</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>5e2dc8b7-c0c2-41a2-924e-11f02955f798</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>2</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>A summary entity represents a branch in a tree rather than an end-node. Summary entities are used for reporting and do not have own values.</Help>
-                    <Description>This is a summary entity</Description>
-                    <Name>Summary Level</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
                 <Name>Attribute Set</Name>
                 <Description>Product Attribute Set</Description>
                 <Help>Define Product Attribute Sets to add additional attributes and values to the product. You need to define a Attribute Set if you want to enable Serial and Lot Number tracking.</Help>
@@ -6525,7 +6637,7 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
                 <DisplayLength>22</DisplayLength>
-                <SeqNo>110</SeqNo>
+                <SeqNo>60</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
                 <IsHeading>N</IsHeading>
@@ -6581,7 +6693,7 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
                 <DisplayLength>22</DisplayLength>
-                <SeqNo>120</SeqNo>
+                <SeqNo>60</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
                 <IsHeading>N</IsHeading>
@@ -6629,127 +6741,15 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Part Type</Name>
-                <Description/>
-                <Help/>
+                <Name>Summary Level</Name>
+                <Description>This is a summary entity</Description>
+                <Help>A summary entity represents a branch in a tree rather than an end-node. Summary entities are used for reporting and do not have own values.</Help>
                 <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">8fc937b2-17a7-48e6-90e9-6ce84fe9ca83</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>10</DisplayLength>
-                <SeqNo>130</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>d5a0d33f-62bc-4855-a58f-31e650412a38</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description/>
-                    <Name>Part Type</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Product Category</Name>
-                <Description>Category of a Product</Description>
-                <Help>Identifies the category which this product belongs to.  Product categories are used for pricing and selection.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">af49c3ce-3a8c-49c6-9dd2-936e4021edd8</AD_Column_ID>
-                <IsDisplayed>Y</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>140</SeqNo>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>65f1e658-c74f-4e35-8859-61ccd6d19879</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>80</SeqNoGrid>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help>Identifies the category which this product belongs to.  Product categories are used for pricing and selection.</Help>
-                    <Description>Category of a Product</Description>
-                    <Name>Product Category</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>Product Type</Name>
-                <Description>Type of product</Description>
-                <Help>The type of product also determines accounting consequences.</Help>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">d73526a7-eb23-4809-ab5a-b9c046d5d005</AD_Column_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">2338fd88-c733-4d41-aca5-c93c3ac0b69f</AD_Column_ID>
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
                 <DisplayLength>1</DisplayLength>
-                <SeqNo>150</SeqNo>
+                <SeqNo>70</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
                 <IsHeading>N</IsHeading>
@@ -6767,11 +6767,11 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_Reference_Value_ID reference="id"/>
                 <AD_Val_Rule_ID reference="id"/>
                 <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>c4a09362-afdd-4578-bfa4-fdea0a76e8de</AD_Field_UU>
+                <AD_Field_UU>5e2dc8b7-c0c2-41a2-924e-11f02955f798</AD_Field_UU>
                 <IsAllowCopy/>
-                <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>90</SeqNoGrid>
-                <XPosition>1</XPosition>
+                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <SeqNoGrid>0</SeqNoGrid>
+                <XPosition>2</XPosition>
                 <ColumnSpan>2</ColumnSpan>
                 <NumLines>1</NumLines>
                 <IsQuickEntry>N</IsQuickEntry>
@@ -6786,9 +6786,9 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_LabelStyle_ID reference="id"/>
                 <AD_FieldStyle_ID reference="id"/>
                 <AD_Field_Trl type="translation">
-                    <Help>The type of product also determines accounting consequences.</Help>
-                    <Description>Type of product</Description>
-                    <Name>Product Type</Name>
+                    <Help>A summary entity represents a branch in a tree rather than an end-node. Summary entities are used for reporting and do not have own values.</Help>
+                    <Description>This is a summary entity</Description>
+                    <Name>Summary Level</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
@@ -6797,15 +6797,15 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Expense Type</Name>
-                <Description>Expense report type</Description>
-                <Help/>
+                <Name>Purchased</Name>
+                <Description>Organization purchases this product</Description>
+                <Help>The Purchased check box indicates if this product is purchased by this organization.</Help>
                 <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">0c38a9b3-1e56-4a1a-bae9-272da7536736</AD_Column_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">0c761c6d-7893-47e8-b72b-6506ff7a60c4</AD_Column_ID>
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo>160</SeqNo>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>80</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
                 <IsHeading>N</IsHeading>
@@ -6823,11 +6823,67 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_Reference_Value_ID reference="id"/>
                 <AD_Val_Rule_ID reference="id"/>
                 <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>19c48abc-dfbb-4fe1-bd5d-e362cd619dfc</AD_Field_UU>
+                <AD_Field_UU>92ba1834-05c3-40ca-8932-6d983dc77739</AD_Field_UU>
                 <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>130</SeqNoGrid>
+                <XPosition>2</XPosition>
+                <ColumnSpan>1</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Purchased check box indicates if this product is purchased by this organization.</Help>
+                    <Description>Organization purchases this product</Description>
+                    <Name>Purchased</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Stocked</Name>
+                <Description>Organization stocks this product</Description>
+                <Help>The Stocked check box indicates if this product is stocked by this Organization.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">01755500-e8c8-4b82-b8c4-60f0255b2eba</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>80</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>98d509e6-a1b1-4b5d-89fa-cdbf4b11c32f</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
                 <SeqNoGrid>0</SeqNoGrid>
-                <XPosition>1</XPosition>
+                <XPosition>2</XPosition>
                 <ColumnSpan>2</ColumnSpan>
                 <NumLines>1</NumLines>
                 <IsQuickEntry>N</IsQuickEntry>
@@ -6842,9 +6898,65 @@ This allows finer granularity of the Delivery Rule Manual.</Help>
                 <AD_LabelStyle_ID reference="id"/>
                 <AD_FieldStyle_ID reference="id"/>
                 <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description>Expense report type</Description>
-                    <Name>Expense Type</Name>
+                    <Help>The Stocked check box indicates if this product is stocked by this Organization.</Help>
+                    <Description>Organization stocks this product</Description>
+                    <Name>Stocked</Name>
+                    <AD_Language>es_CO</AD_Language>
+                    <IsActive>Y</IsActive>
+                    <IsTranslated>N</IsTranslated>
+                </AD_Field_Trl>
+            </AD_Field>
+            <AD_Field type="table">
+                <AD_Client_ID>0</AD_Client_ID>
+                <AD_Org_ID>0</AD_Org_ID>
+                <Name>Sold</Name>
+                <Description>Organization sells this product</Description>
+                <Help>The Sold check box indicates if this product is sold by this organization.</Help>
+                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
+                <AD_Column_ID reference="uuid" reference-key="AD_Column">2a323f3c-af62-4a1b-bc5a-c35761035cd4</AD_Column_ID>
+                <IsDisplayed>Y</IsDisplayed>
+                <DisplayLogic/>
+                <DisplayLength>1</DisplayLength>
+                <SeqNo>90</SeqNo>
+                <SortNo/>
+                <IsSameLine>N</IsSameLine>
+                <IsHeading>N</IsHeading>
+                <IsFieldOnly>N</IsFieldOnly>
+                <IsEncrypted>N</IsEncrypted>
+                <IsActive>Y</IsActive>
+                <IsReadOnly>N</IsReadOnly>
+                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
+                <AD_FieldGroup_ID reference="id"/>
+                <EntityType>U</EntityType>
+                <ObscureType/>
+                <AD_Reference_ID reference="id"/>
+                <IsMandatory/>
+                <DefaultValue/>
+                <AD_Reference_Value_ID reference="id"/>
+                <AD_Val_Rule_ID reference="id"/>
+                <Included_Tab_ID reference="id"/>
+                <AD_Field_UU>f99ac058-a2b2-4dfd-b400-6d1328ad6770</AD_Field_UU>
+                <IsAllowCopy/>
+                <IsDisplayedGrid>Y</IsDisplayedGrid>
+                <SeqNoGrid>140</SeqNoGrid>
+                <XPosition>2</XPosition>
+                <ColumnSpan>2</ColumnSpan>
+                <NumLines>1</NumLines>
+                <IsQuickEntry>N</IsQuickEntry>
+                <IsUpdateable/>
+                <IsAlwaysUpdateable/>
+                <MandatoryLogic/>
+                <ReadOnlyLogic/>
+                <IsToolbarButton/>
+                <IsDefaultFocus>N</IsDefaultFocus>
+                <IsAdvancedField>N</IsAdvancedField>
+                <VFormat/>
+                <AD_LabelStyle_ID reference="id"/>
+                <AD_FieldStyle_ID reference="id"/>
+                <AD_Field_Trl type="translation">
+                    <Help>The Sold check box indicates if this product is sold by this organization.</Help>
+                    <Description>Organization sells this product</Description>
+                    <Name>Sold</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
@@ -6864,7 +6976,7 @@ There are two reasons for de-activating and not deleting records:
                 <IsDisplayed>Y</IsDisplayed>
                 <DisplayLogic/>
                 <DisplayLength>1</DisplayLength>
-                <SeqNo>170</SeqNo>
+                <SeqNo>120</SeqNo>
                 <SortNo/>
                 <IsSameLine>N</IsSameLine>
                 <IsHeading>N</IsHeading>
@@ -6885,7 +6997,7 @@ There are two reasons for de-activating and not deleting records:
                 <AD_Field_UU>8ace0ca9-20d1-47e0-ab8c-f7ee9a5c757e</AD_Field_UU>
                 <IsAllowCopy/>
                 <IsDisplayedGrid>Y</IsDisplayedGrid>
-                <SeqNoGrid>120</SeqNoGrid>
+                <SeqNoGrid>160</SeqNoGrid>
                 <XPosition>2</XPosition>
                 <ColumnSpan>2</ColumnSpan>
                 <NumLines>1</NumLines>
@@ -6907,118 +7019,6 @@ There are two reasons for de-activating and not deleting records:
 (2) The record is referenced by other records. E.g., you cannot delete a Business Partner, if there are invoices for this partner record existing. You de-activate the Business Partner and prevent that this record is used for future entries.</Help>
                     <Description>The record is active in the system</Description>
                     <Name>Active</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>BhgoProduct</Name>
-                <Description/>
-                <Help/>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">7a9d8de6-9c56-4562-b2d5-c2afaaa59290</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>22</DisplayLength>
-                <SeqNo/>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>d1127f80-05de-427e-a6cb-27d7767587f2</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid/>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description/>
-                    <Name>BhgoProduct</Name>
-                    <AD_Language>es_CO</AD_Language>
-                    <IsActive>Y</IsActive>
-                    <IsTranslated>N</IsTranslated>
-                </AD_Field_Trl>
-            </AD_Field>
-            <AD_Field type="table">
-                <AD_Client_ID>0</AD_Client_ID>
-                <AD_Org_ID>0</AD_Org_ID>
-                <Name>BHGO_M_Product_UU</Name>
-                <Description/>
-                <Help/>
-                <AD_Tab_ID reference="uuid" reference-key="AD_Tab">bcf8f6b2-5d9d-4c22-be21-3ec6497a5a1f</AD_Tab_ID>
-                <AD_Column_ID reference="uuid" reference-key="AD_Column">d14bd662-9897-4ba2-9173-933d977875db</AD_Column_ID>
-                <IsDisplayed>N</IsDisplayed>
-                <DisplayLogic/>
-                <DisplayLength>36</DisplayLength>
-                <SeqNo/>
-                <SortNo/>
-                <IsSameLine>N</IsSameLine>
-                <IsHeading>N</IsHeading>
-                <IsFieldOnly>N</IsFieldOnly>
-                <IsEncrypted>N</IsEncrypted>
-                <IsActive>Y</IsActive>
-                <IsReadOnly>N</IsReadOnly>
-                <IsCentrallyMaintained>Y</IsCentrallyMaintained>
-                <AD_FieldGroup_ID reference="id"/>
-                <EntityType>U</EntityType>
-                <ObscureType/>
-                <AD_Reference_ID reference="id"/>
-                <IsMandatory/>
-                <DefaultValue/>
-                <AD_Reference_Value_ID reference="id"/>
-                <AD_Val_Rule_ID reference="id"/>
-                <Included_Tab_ID reference="id"/>
-                <AD_Field_UU>b06624e3-7633-48b6-938c-94faa0912900</AD_Field_UU>
-                <IsAllowCopy/>
-                <IsDisplayedGrid>N</IsDisplayedGrid>
-                <SeqNoGrid/>
-                <XPosition>1</XPosition>
-                <ColumnSpan>2</ColumnSpan>
-                <NumLines>1</NumLines>
-                <IsQuickEntry>N</IsQuickEntry>
-                <IsUpdateable/>
-                <IsAlwaysUpdateable/>
-                <MandatoryLogic/>
-                <ReadOnlyLogic/>
-                <IsToolbarButton/>
-                <IsDefaultFocus>N</IsDefaultFocus>
-                <IsAdvancedField>N</IsAdvancedField>
-                <VFormat/>
-                <AD_LabelStyle_ID reference="id"/>
-                <AD_FieldStyle_ID reference="id"/>
-                <AD_Field_Trl type="translation">
-                    <Help/>
-                    <Description/>
-                    <Name>BHGO_M_Product_UU</Name>
                     <AD_Language>es_CO</AD_Language>
                     <IsActive>Y</IsActive>
                     <IsTranslated>N</IsTranslated>
