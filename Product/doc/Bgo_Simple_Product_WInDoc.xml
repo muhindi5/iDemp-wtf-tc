@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="idempiereDocument.css"?><idempiereDocument>
-    <header>bhgo-product-pack Package Description</header>
+    <header>Bgo_Simple_Product_WIn Package Description</header>
     <H1>Package Name:</H1>
-    <packagename>bhgo-product-pack</packagename>
+    <packagename>Bgo_Simple_Product_WIn</packagename>
     <H1>Author:</H1>
     <Name:/>
     <H1>Email Address:</H1>
@@ -9,9 +9,9 @@
     <H1>Created:</H1>
     <Date>2018-02-26 16:04:01.062</Date>
     <H1>Updated:</H1>
-    <Date>2018-02-26 16:04:01.062</Date>
+    <Date>2018-02-28 20:51:29.595</Date>
     <H1>Description:</H1>
-    <description>A custom window for products</description>
+    <description>A simplified  window for products</description>
     <H1>Instructions:</H1>
     <instructions/>
     <H1>Files in Package:</H1>
