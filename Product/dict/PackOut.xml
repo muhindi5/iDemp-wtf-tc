@@ -2,9 +2,9 @@
     <AD_Window type="table">
         <AD_Client_ID>0</AD_Client_ID>
         <AD_Org_ID>0</AD_Org_ID>
-        <Name>BHA Product</Name>
+        <Name>BHGO Product</Name>
         <Description>Maintain Products</Description>
-        <Help>The Product Window defines all products used by an organization.  These products include those sold to customers, used in the manufacture of products sold to customers and products purchased by an organization.</Help>
+        <Help>BandaHealth Product Window</Help>
         <IsActive>Y</IsActive>
         <WindowType>M</WindowType>
         <Processing>N</Processing>
@@ -3768,7 +3768,7 @@ There are two reasons for de-activating and not deleting records:
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>Name</Name>
+                <Name>Product Name</Name>
                 <Description>Alphanumeric identifier of the entity</Description>
                 <Help>The name of an entity (record) is used as an default search option in addition to the search key. The name is up to 60 characters in length.</Help>
                 <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c074e5b3-cc1f-4040-95f2-3b2a0969d05d</AD_Tab_ID>
@@ -3936,7 +3936,7 @@ There are two reasons for de-activating and not deleting records:
             <AD_Field type="table">
                 <AD_Client_ID>0</AD_Client_ID>
                 <AD_Org_ID>0</AD_Org_ID>
-                <Name>UOM</Name>
+                <Name>Unit of Measure</Name>
                 <Description>Unit of Measure</Description>
                 <Help>The UOM defines a unique non monetary Unit of Measure</Help>
                 <AD_Tab_ID reference="uuid" reference-key="AD_Tab">c074e5b3-cc1f-4040-95f2-3b2a0969d05d</AD_Tab_ID>
@@ -5045,7 +5045,7 @@ If you leave the search key empty, the system automatically creates a numeric nu
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -5575,7 +5575,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -6192,7 +6192,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -6992,7 +6992,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -8586,7 +8586,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -11165,7 +11165,7 @@ Credit Work in Process Account </Help>
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -14105,7 +14105,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt;0</DisplayLogic>
             <IsInsertRecord>N</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -14715,7 +14715,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ &lt; 0</DisplayLogic>
             <IsInsertRecord>N</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -15471,7 +15471,7 @@ There are two reasons for de-activating and not deleting records:
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@&lt;0</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
@@ -16380,7 +16380,7 @@ The sum the Current Cost Price + Current Cost Price Lower Level is the total cos
             <EntityType>U</EntityType>
             <Included_Tab_ID reference="id"/>
             <ReadOnlyLogic/>
-            <DisplayLogic>@AD_Client_ID@ == 2</DisplayLogic>
+            <DisplayLogic>@AD_Client_ID@ != 1</DisplayLogic>
             <IsInsertRecord>Y</IsInsertRecord>
             <IsAdvancedTab>N</IsAdvancedTab>
             <Parent_Column_ID reference="id"/>
